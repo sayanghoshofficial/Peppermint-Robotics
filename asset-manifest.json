@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Peppermint-Robotics/static/css/main.ea8f723b.css",
+    "main.css": "/Peppermint-Robotics/static/css/main.0599ba03.css",
     "main.js": "/Peppermint-Robotics/static/js/main.0a6119d7.js",
     "static/media/Untitled-design-86-1.png": "/Peppermint-Robotics/static/media/Untitled-design-86-1.b7edf64685aec7f72312.png",
     "static/media/close.png": "/Peppermint-Robotics/static/media/close.20553c2b62e31aeb7f95.png",
     "index.html": "/Peppermint-Robotics/index.html",
-    "main.ea8f723b.css.map": "/Peppermint-Robotics/static/css/main.ea8f723b.css.map",
+    "main.0599ba03.css.map": "/Peppermint-Robotics/static/css/main.0599ba03.css.map",
     "main.0a6119d7.js.map": "/Peppermint-Robotics/static/js/main.0a6119d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea8f723b.css",
+    "static/css/main.0599ba03.css",
     "static/js/main.0a6119d7.js"
   ]
 }
