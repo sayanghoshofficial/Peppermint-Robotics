@@ -35,3 +35,6 @@ hr {
 #details{
   width: 250px;
 }
+#details>a:hover{
+  color:#50ebec
+}
