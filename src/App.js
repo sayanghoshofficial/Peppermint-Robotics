@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/peppermint-robotics">
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
