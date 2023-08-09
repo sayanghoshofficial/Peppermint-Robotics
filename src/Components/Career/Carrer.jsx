@@ -1,12 +1,16 @@
 import React from "react";
-import Style from "./carrer.module.css";
+import Style from "./career.module.css";
 import { jobOpenings } from "../../Data/Data";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-const Carrer = () => {
+const Career = () => {
+  const navigate = useNavigate();
+  const hanldleApply = (id) => {
+    navigate(`/form/${id}`);
+  };
   return (
     <>
-      <div className={Style.carrer}>
+      <div className={Style.career}>
         <header>
           <center>
             <h1>Careers</h1>
@@ -39,14 +43,22 @@ const Carrer = () => {
                       <li key={index}>{tech}</li>
                     ))}
                   </ul>
+                  <div className={Style.buttonContainer}>
+                    <button
+                      className={Style.applyButton}
+                      onClick={()=>hanldleApply(job.id)}
+                    >
+                      Apply Now
+                    </button>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
           <p>
             “If you are excited about the prospect of building awesome tech and
-            robots, we’d love to hear from you”. Please email us 
-            at <Link to="mailto:hr@getpeppermint.co">hr@getpeppermint.co</Link>
+            robots, we’d love to hear from you”. Please email us at{" "}
+            <Link to="mailto:hr@getpeppermint.co">hr@getpeppermint.co</Link>
           </p>
         </div>
       </div>
@@ -54,4 +66,4 @@ const Carrer = () => {
   );
 };
 
-export default Carrer;
+export default Career;

@@ -1,0 +1,107 @@
+.footerMain {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background-color: #22292f;
+  color: white;
+}
+.top {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  /* border: 2px solid red; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: space-around;
+}
+.left,
+.middle,
+.right {
+  box-sizing: border-box;
+  width: 350px;
+  height: auto;
+  /* border: 2px solid green; */
+  text-align: left;
+  padding: 20px;
+}
+.contactAddress,
+.contactEmail,
+.contactPhone {
+  box-sizing: border-box;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactEmail p a{
+  color: white;
+}
+.contactEmail p a:hover{
+  color: blue;
+}
+.left .logo img {
+  width: 90%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bottom {
+  width: 100%;
+  height: 50px;
+  
+}
+.middle ul{
+  padding: 0;
+}
+.middle ul li{
+  display:flex;
+  padding-bottom: 20px;
+}
+.middle ul li:hover{
+  color:#00f0ef;
+}
+.middle ul li::before {
+  content: '•'; /* Use a disc character */
+  color: #00f0ef; /* Set the color to blue */
+  margin-right: 8px; /* Add some spacing between the disc and the text */
+}
+.right{
+  width: 580px;
+  /* font-size: 12px; */
+}
+.right ul{
+  padding: 0;
+}
+.right ul li{
+  display:flex;
+  padding-bottom: 20px;
+}
+.right ul li:hover{
+  color:#00f0ef;
+}
+.right ul li::before {
+  content: '•'; /* Use a disc character */
+  color: #00f0ef; /* Set the color to blue */
+  margin-right: 8px; /* Add some spacing between the disc and the text */
+}
+.bottom{
+  box-sizing: border-box;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottomRight ul{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -5,12 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100%;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 ul {
   list-style: none;
 }
@@ -31,4 +31,7 @@ hr {
   margin-left: 0;
   margin-right: 0;
   border: 1px solid #50ebec;
+}
+#details{
+  width: 250px;
 }

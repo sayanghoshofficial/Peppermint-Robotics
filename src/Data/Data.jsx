@@ -17,7 +17,7 @@ export const jobOpenings = [
       "C++, ROS1/ROS2,",
       "SLAM, OpenCV.",
       "CUDA, Pytorch.",
-      "TensorFlow, Navigation"
+      "TensorFlow, Navigation",
     ],
   },
   {
@@ -28,7 +28,23 @@ export const jobOpenings = [
       "Lean Six Sigma",
       "Supply chain management",
       "Inventory",
-      "JIT"
+      "JIT",
     ],
   },
+];
+
+export const quickLink = [
+  "Home",
+  "FAQs",
+  "Case Studies",
+  "Products",
+  "Blog",
+  "Privacy Policy",
+  "Careers",
+];
+
+export const recentPost = [
+  "Elevating Efficiency: Evolution of Material Handling with AMRs",
+  "Autonomous Mobile Robots: The Future of Efficient Material Handling",
+  "Robotic Floor Scrubbers – The Future of Autonomous Cleaning at Airports",
 ];

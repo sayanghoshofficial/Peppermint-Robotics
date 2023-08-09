@@ -5,7 +5,7 @@ import Cross from "../Assets/Icons/close.png";
 import Logo from "../Assets/Icons/Untitled-design-86-1.png";
 import { Link } from "react-router-dom";
 import { BsTwitter, BsLinkedin, BsYoutube } from "react-icons/bs";
-import {MdEmail} from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(true);
@@ -50,12 +50,18 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link to="https://www.linkedin.com/company/getpeppermint" target="_blank">
+              <Link
+                to="https://www.linkedin.com/company/getpeppermint"
+                target="_blank"
+              >
                 <BsLinkedin />
               </Link>
             </li>
             <li>
-              <Link to="https://www.youtube.com/channel/UCsBgxvgDYRPHEKPp_tU-Qyw" target="_blank">
+              <Link
+                to="https://www.youtube.com/channel/UCsBgxvgDYRPHEKPp_tU-Qyw"
+                target="_blank"
+              >
                 <BsYoutube />
               </Link>
             </li>
@@ -66,29 +72,40 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        
       </div>
       <div
         style={menu ? { display: "none" } : null}
         className={Styles.dropDownMenu}
       >
         <li>
-          <Link to="/"><b>HOME</b></Link>
+          <Link to="/">
+            <b>HOME</b>
+          </Link>
         </li>
         <li>
-          <Link to="/"><b>ABOUT US</b></Link>
+          <Link to="/">
+            <b>ABOUT US</b>
+          </Link>
         </li>
         <li>
-          <Link to="/"><b>SOLUTIONS</b></Link>
+          <Link to="/">
+            <b>SOLUTIONS</b>
+          </Link>
         </li>
         <li>
-          <Link to="/"><b>PRODUCTS</b></Link>
+          <Link to="/">
+            <b>PRODUCTS</b>
+          </Link>
         </li>
         <li>
-          <Link to="/"><b>RESOURCES</b></Link>
+          <Link to="/">
+            <b>RESOURCES</b>
+          </Link>
         </li>
         <li>
-          <Link to="/carrer"><b>CARRER</b></Link>
+          <Link to="/carrer">
+            <b>CARRER</b>
+          </Link>
         </li>
       </div>
     </div>
