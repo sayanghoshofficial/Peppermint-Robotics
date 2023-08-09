@@ -73,22 +73,22 @@ const Navbar = () => {
         className={Styles.dropDownMenu}
       >
         <li>
-          <Link to="/">HOME</Link>
+          <Link to="/"><b>HOME</b></Link>
         </li>
         <li>
-          <Link to="/">ABOUT US</Link>
+          <Link to="/"><b>ABOUT US</b></Link>
         </li>
         <li>
-          <Link to="/">SOLUTIONS</Link>
+          <Link to="/"><b>SOLUTIONS</b></Link>
         </li>
         <li>
-          <Link to="/">PRODUCTS</Link>
+          <Link to="/"><b>PRODUCTS</b></Link>
         </li>
         <li>
-          <Link to="/">RESOURCES</Link>
+          <Link to="/"><b>RESOURCES</b></Link>
         </li>
         <li>
-          <Link to="/carrer">CARRER</Link>
+          <Link to="/carrer"><b>CARRER</b></Link>
         </li>
       </div>
     </div>

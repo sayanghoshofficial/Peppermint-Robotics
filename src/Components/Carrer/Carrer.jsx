@@ -1,6 +1,7 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
 import Style from "./carrer.module.css";
+import { jobOpenings } from "../../Data/Data";
+import { Link } from "react-router-dom";
 
 const Carrer = () => {
   return (
@@ -27,53 +28,25 @@ const Carrer = () => {
           <h3>WE'RE HIRING!</h3>
           <h1>Current Openings</h1>
           <div className={Style.jobBox}>
-            <div className={Style.vacancy}>
-              <div className={Style.jobTitle}>SDE II</div>
-              <div className={Style.jobType}>
-                Software Development Engineer II
+            {jobOpenings.map((job, index) => (
+              <div className={Style.vacancy} key={job.id}>
+                <div className={Style.jobTitle}>{job.title}</div>
+                <div className={Style.jobType}>{job.position}</div>
+                <hr />
+                <div className={Style.jobRequirement}>
+                  <ul>
+                    {job.techStack.map((tech, index) => (
+                      <li key={index}>{tech}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <hr />
-              <div className={Style.jobRequirement}>
-                <ul>
-                  <li>Python, API, MongoDB.</li>
-                  <li>Dockers, Flutter.</li>
-                  <li>Mobile/Web App Development</li>
-                </ul>
-              </div>
-            </div>
-            <div className={Style.vacancy}>
-              <div className={Style.jobTitle}>SDE II</div>
-              <div className={Style.jobType}>
-                Software Development Engineer II
-              </div>
-              <hr />
-              <div className={Style.jobRequirement}>
-                <ul>
-                  <li>Python, API, MongoDB.</li>
-                  <li>Dockers, Flutter.</li>
-                  <li>Mobile/Web App Development</li>
-                </ul>
-              </div>
-            </div>
-            <div className={Style.vacancy}>
-              <div className={Style.jobTitle}>SDE II</div>
-              <div className={Style.jobType}>
-                Software Development Engineer II
-              </div>
-              <hr />
-              <div className={Style.jobRequirement}>
-                <ul>
-                  <li>Python, API, MongoDB.</li>
-                  <li>Dockers, Flutter.</li>
-                  <li>Mobile/Web App Development</li>
-                </ul>
-              </div>
-            </div>
+            ))}
           </div>
           <p>
             “If you are excited about the prospect of building awesome tech and
-            robots, we’d love to hear from you”. Please email us at
-            hr@getpeppermint.co
+            robots, we’d love to hear from you”. Please email us 
+            at <Link to="mailto:hr@getpeppermint.co">hr@getpeppermint.co</Link>
           </p>
         </div>
       </div>

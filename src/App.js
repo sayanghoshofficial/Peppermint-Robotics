@@ -1,7 +1,7 @@
-import {Carrer,Home} from "./Components";
+import {Carrer,Footer,Home,Navbar} from "./Components";
 // import Home from "./Components/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar/Navbar";
+
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/carrer" element={<Carrer />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

@@ -1,5 +1,6 @@
 import Carrer from "./Carrer/Carrer";
 import Home from "./Home";
 import Navbar from "./Navbar/Navbar";
+import Footer from "./Footer/Footer";
 
-export { Home, Carrer };
+export { Home, Carrer, Navbar, Footer };

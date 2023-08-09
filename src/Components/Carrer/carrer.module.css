@@ -1,65 +1,65 @@
-.carrer{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.carrer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.about{
-    width: 80vw;
-    padding: 50px;
-    display: flex;
-    flex-direction:column;
-    justify-content: start;
-    /* border: 2px solid red; */
+.about {
+  width: 80vw;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
-.about p{
-    padding-bottom: 50px;
+.about p {
+  padding-bottom: 50px;
 }
-.hiringBox{
-    width: 100%;
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #f7f7f7;
+.hiringBox {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f7f7f7;
 }
-.hiringBox h3{
-    color: #50ebec;
-    font-family: monospace;
+.hiringBox h3 {
+  color: #50ebec;
+  font-family: monospace;
 }
-.jobBox{
-    width: 80%;
-    height: auto;
-    /* border: 2px solid red; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+.jobBox {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-.vacancy{
-    width: 250px;
-    height: auto;
-    padding: 50px;
-    border:2px solid green;
-    padding: 3em 3em 4.5em;
-    text-align: center;
-    background-color: white;
-    margin: 20px;
-
+.vacancy {
+  width: 250px;
+  height: auto;
+  padding: 50px;
+  padding: 3em 3em 4.5em;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 10px;
 }
-.vacancy hr{
-    border: 1px solid lightgray;
+.vacancy .jobTitle {
+  font-family: monospace;
 }
-.jobRequirement ul{
-    list-style: disc;
-    text-align: left;
-    color: gray;
+.vacancy hr {
+  border: 1px solid lightgray;
+}
+.jobRequirement ul {
+  list-style: disc;
+  text-align: left;
+  color: gray;
 }
 @media only screen and (max-width: 1480px) {
-   .jobBox{
+  .jobBox {
     justify-content: center;
-   }
   }
+}
