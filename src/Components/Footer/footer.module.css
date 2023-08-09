@@ -59,6 +59,7 @@
 .middle ul li {
   display: flex;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 .middle ul li:hover {
   color: #00f0ef;
@@ -78,6 +79,7 @@
 .right ul li {
   display: flex;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 .right ul li:hover {
   color: #00f0ef;
