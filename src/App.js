@@ -1,4 +1,4 @@
-import { Career, Footer, Form, Home, Navbar } from "./Components";
+import { Career, Footer, Form, Home, Navbar, NotFound } from "./Components";
 // import Home from "./Components/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -11,6 +11,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/carrer" element={<Career />} />
           <Route path="/form/:id" element={<Form />} />
+          <Route path="*" element={<NotFound/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
