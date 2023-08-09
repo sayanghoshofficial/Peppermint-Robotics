@@ -1,4 +1,6 @@
+# Create Career page design for Peppermint Robotics
 
+This is the Hosting Page [Peppermint Robotics](https://sayanghoshofficial.github.io/Peppermint-Robotics/)
 
 # Case Study: Peppermint Robotics Careers Page
 
