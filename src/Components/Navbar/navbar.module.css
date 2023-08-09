@@ -1,7 +1,7 @@
 .main {
     position: relative;
     padding: 0 2 rem;
-    background-color: #22292f;
+    background-color: #1b156d;
   }
   .navbar {
     position: fixed;
@@ -12,7 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #22292f;
+    background-color: #1b156d;
+    background: linear-gradient(135deg, #f06, #00f);
   }
   .logo {
     display: flex;

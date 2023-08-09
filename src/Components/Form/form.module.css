@@ -4,17 +4,19 @@
   box-sizing: border-box;
   width: 100%;
   padding: 40px;
-  background-color: #f0f0f0;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #ff8c00; /* Set an exciting background color */
+  background-image: linear-gradient(135deg, #00ff80, #2600ff); /* Add a linear gradient */
+  color: #fff; /* Text color for better contrast */
 }
 
 form {
   width: 100%;
   max-width: 500px;
-  background-color: white;
+  background-color: #61aabb;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -24,7 +26,7 @@ form {
 label {
   display: block;
   margin-bottom: 8px;
-  color: #333;
+  color: #050505;
 }
 
 input[type="text"],
@@ -36,6 +38,7 @@ input[type="file"] {
   margin-bottom: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 button[type="submit"] {

@@ -8,6 +8,7 @@ const Career = () => {
   const hanldleApply = (id) => {
     navigate(`/form/${id}`);
   };
+
   return (
     <>
       <div className={Style.career}>
@@ -29,7 +30,9 @@ const Career = () => {
           <hr />
         </div>
         <div className={Style.hiringBox}>
-          <h3>WE'RE HIRING!</h3>
+          <h3 className={Style.excitedText}>
+            <span className={Style.animation}>WE'RE HIRING!</span>
+          </h3>
           <h1>Current Openings</h1>
           <div className={Style.jobBox}>
             {jobOpenings.map((job, index) => (
@@ -46,7 +49,7 @@ const Career = () => {
                   <div className={Style.buttonContainer}>
                     <button
                       className={Style.applyButton}
-                      onClick={()=>hanldleApply(job.id)}
+                      onClick={() => hanldleApply(job.id)}
                     >
                       Apply Now
                     </button>
