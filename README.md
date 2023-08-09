@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Case Study: Peppermint Robotics Careers Page
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+Peppermint Robotics, a renowned robotics company, aimed to create an engaging and informative careers page for potential job applicants. This case study outlines the design and implementation of the Peppermint Robotics careers page using React components and React Router for seamless navigation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Project Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The Peppermint Robotics careers page was designed to offer essential information about the company, available job openings, and the application process. The key components developed for the page include:
 
-### `npm test`
+### Navbar (Navbar.jsx)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Navbar component provides users with easy navigation options and displays links to various sections of the page. Additionally, it features social media links for enhanced engagement.
 
-### `npm run build`
+### Home (Home.jsx)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Home component introduces users to Peppermint Robotics and highlights the company's notable achievements and values.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Careers (Carrer.jsx)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Careers component showcases the current job openings, complete with brief descriptions and "Apply Now" buttons for each position.
 
-### `npm run eject`
+### Form (Form.jsx)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The Form component offers a user-friendly job application form with fields for personal information and CV upload.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Footer (Footer.jsx)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Footer component displays contact information, quick links, and social media icons to enhance user interaction.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### NotFound (NotFound.jsx)
 
-## Learn More
+The NotFound component serves as a custom 404 page for handling invalid routes and providing a better user experience.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React: A JavaScript library for building dynamic user interfaces.
+- React Router: A routing library that enables single-page application navigation.
 
-### Code Splitting
+## Implementation Details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The implementation of each component follows best practices for React development, ensuring modularity and code reusability.
 
-### Analyzing the Bundle Size
+## Conclusion
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The Peppermint Robotics careers page successfully utilizes React components and React Router to create a user-friendly and visually appealing experience for job seekers. The page seamlessly integrates navigation, informative sections, and interactive forms to streamline the job application process.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please note that this is a simplified version of the case study, and you can further customize it to match your project's details and formatting preferences.
